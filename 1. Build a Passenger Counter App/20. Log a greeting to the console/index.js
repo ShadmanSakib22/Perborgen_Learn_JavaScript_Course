@@ -4,4 +4,8 @@
 // Create a third variable, myGreeting, that contatenates the two strings
 // Log myGreeting to the console
 
+let fullName = "Shadman Sakib";
+let greeting = "Hi, my name is ";
+let myGreeting = `${greeting} ${fullName}`;
 
+console.log(myGreeting);
