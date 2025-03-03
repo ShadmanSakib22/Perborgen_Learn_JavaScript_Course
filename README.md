@@ -19,3 +19,10 @@ Courtesy of [FreeCodeCamp](https://www.youtube.com/playlist?list=PLWKjhJtqVAbmMu
    - The App will also show the total number of tickets compeleted by all Employees in that day - calculation occurs everytime the Employee hits save.
 
    Lessons Applied: Variables (let, const), Arrow functions, String literals, String-Number conversions, Basic Math, If-else conditions, Array, DOM manipulation - .addEventListener .querySelector .querySelectorAll .innerHTML .textContent, .forEach.
+
+Total Projects Completed in Courses:
+
+1. Passenger Counter App
+2. Resolved Tickets Helper App
+3. Calculator - input, add, sub, mul, div
+4. Blackjack
