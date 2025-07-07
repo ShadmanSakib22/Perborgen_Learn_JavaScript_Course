@@ -1,8 +1,9 @@
-const welcomeEl = document.getElementById("welcome-el")
+const welcomeEl = document.getElementById("welcome-el");
 
-function greetUser(greeting, name) {
-    // Rewrite the expression using template literals
-    welcomeEl.textContent = greeting + ", " + name + " 👋"
+// Add the ability to choose the emoji as well!
+
+function greetUser(greeting, name, emoji) {
+  welcomeEl.textContent = `${greeting}, ${name} ${emoji}`;
 }
 
-greetUser("Howdy", "James")
+greetUser("Howdy", "James", "🔥");
