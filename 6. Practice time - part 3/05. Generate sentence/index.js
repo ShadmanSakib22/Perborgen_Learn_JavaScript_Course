@@ -9,5 +9,12 @@
 
 // Use both a for loop and a template string to solve the challenge
 function generateSentence(desc, arr) {
-    
+  let list = "";
+  arr.forEach((e) => {
+    list += `${e}, `;
+  });
+  return `The ${arr.length} ${desc} are ${list}`;
 }
+
+let val = generateSentence("best fruits", ["Apples", "Bananas"]);
+console.log(val);
